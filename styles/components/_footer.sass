@@ -1,0 +1,18 @@
+@import url(styles/abstract/_variaveis.scss)
+
+@mixin bg-cores($lado, $cores...)
+    @if $lado == left
+        background: linear-gradient(to left, $cores)
+    @else 
+        background: linear-gradient(to right, $cores)
+
+footer 
+    text-align: center
+    font-size: calc($tamanho-do-texto/2)
+    border-top: 2px solid inear-gradient($cor-primaria, $cor-tercearia, $cor-primaria, $cor-tercearia)
+    margin-top: 1rem
+    padding: 1.2rem
+    @include bg-cores("to left", $cor-primaria, $cor-tercearia, $cor-primaria, $cor-tercearia) 
+
+    i
+        color: red

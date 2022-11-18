@@ -1,0 +1,176 @@
+@import url(styles/abstract/_variaveis.scss);
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3F3B6C;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #3F3B6C;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #9F73AB;
+  opacity: 0.9;
+  border-radius: 45px;
+  text-align: center;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #3F3B6C;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #624F82;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #3F3B6C;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #9F73AB;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #3F3B6C;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #624F82;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #9F73AB;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #3F3B6C;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #3F3B6C;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #3F3B6C;
+  color: #9F73AB;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #3F3B6C;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  color: #3F3B6C;
+  background-color: #9F73AB;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid inear-gradient(#3F3B6C, #9F73AB, #3F3B6C, #9F73AB);
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to right, #3F3B6C, #9F73AB, #3F3B6C, #9F73AB);
+}
+footer i {
+  color: red;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre .sobre__imagem {
+  padding: 1rem;
+}
+.sobre .sobre__textos {
+  margin: 0 10vw;
+  align-self: center;
+  color: #3F3B6C;
+}
+.sobre .sobre__textos h3 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}/*# sourceMappingURL=style.css.map */

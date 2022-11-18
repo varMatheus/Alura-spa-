@@ -1,0 +1,20 @@
+@import '../abstract/variaveis';
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sobre__imagem {
+        padding: 1rem;
+    }
+    .sobre__textos {
+        margin: 0 10vw;
+        align-self: center;
+        color: $cor-primaria;
+        h3 {
+            text-align: center;
+            font-weight: bold;
+            padding-bottom: 1rem;
+        }
+    }
+}
